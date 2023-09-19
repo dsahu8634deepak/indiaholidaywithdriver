@@ -27,12 +27,11 @@
         }
         & .owl-nav {
             display: flex;
-            align-items: center;
-            justify-content: center;
             gap: 7px;
             position: absolute;
-            bottom: 5px;
-            right: 10px;
+            width: 100%;
+            top: 40%;
+            justify-content: space-between;
             & .owl-prev {
                 margin-left: 10px;
                 & span {
@@ -44,9 +43,16 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    opacity: 0.6;
+                    transition: all 0.3s ease-in-out;
+                    &:hover{
+                        opacity: 1;
+                        
+                    }
                 }
             }
             & .owl-next {
+                margin-right: 10px;
                 & span {
                     border-radius: 5px;
                     width: 30px;
@@ -56,6 +62,11 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    opacity: 0.6;
+                    transition: all 0.3s ease-in-out;
+                    &:hover{
+                        opacity: 1;
+                    }
                 }
             }
         }
@@ -93,14 +104,14 @@
         }
         & .card-body {
             & .card-title {
-                font-size: 15px;
+                font-size: 14px;
                 line-height: 25px;
                 font-weight: 600;
                 color: #38404f;
                 margin-bottom: 0;
             }
             & .card-text {
-                font-size: 15px;
+                font-size: 13px;
                 line-height: 26px;
                 color: #38404f;
             }
