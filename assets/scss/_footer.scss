@@ -1,0 +1,55 @@
+.footermain {
+    & .aboutimage {
+        & .flogo {
+        }
+    }
+    & .useful-links {
+        & .footerHeading {
+            font-size: 18px;
+            font-weight: 700;
+            color: $theme2;
+            margin-bottom: 10px;
+        }
+        & .list {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            & .itemelist {
+                transition: all 0.3s ease-in-out;
+                & a {
+                    font-size: 14px;
+                    font-weight: 400;
+
+                    & span {
+                        width: 15px;
+                        height: 15px;
+                    }
+                }
+                &:hover {
+                    padding-left: 10px;
+                }
+            }
+            &.contactSide {
+                & li {
+                    display: flex;
+                    align-items: baseline;
+                    gap: 5px;
+                    & span {
+                        width: 32px;
+                        height: 16px;
+                    }
+                    & .addres{
+                        font-size: 14px;
+                        font-weight: 400;
+                        width: unset;
+                        height: unset;
+                    }
+                    & a{
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.NavbarMain {
+    & .navbar-brand {
+        width: 100px;
+        height: 60px;
+        & img {
+        }
+    }
+    & .leftSidecanvas {
+        & .offcanvas-header {
+            & .offcanvas-title {
+                width: 100px;
+                height: 60px;
+            }
+        }
+    }
+}
