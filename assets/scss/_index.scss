@@ -45,9 +45,8 @@
                     justify-content: center;
                     opacity: 0.6;
                     transition: all 0.3s ease-in-out;
-                    &:hover{
+                    &:hover {
                         opacity: 1;
-                        
                     }
                 }
             }
@@ -64,7 +63,7 @@
                     justify-content: center;
                     opacity: 0.6;
                     transition: all 0.3s ease-in-out;
-                    &:hover{
+                    &:hover {
                         opacity: 1;
                     }
                 }
@@ -74,11 +73,6 @@
 }
 
 .sectionpackage {
-    & .heading {
-        font-size: 32px;
-        font-weight: 700;
-        letter-spacing: 1px;
-    }
     & .listNav {
         & .nav-pills {
             & .nav-item {
@@ -89,9 +83,11 @@
                     font-weight: 400;
                     border-radius: 30px;
                     border: 1px solid #6c757d82;
+                    transition: all 0.3s ease-in-out;
                     &.active {
-                        border-color: $theme2;
-                        color: $theme2;
+                        border-color: $theme1;
+                        color: $theme1;
+                        font-weight: 700;
                     }
                 }
             }
@@ -107,14 +103,47 @@
                 font-size: 14px;
                 line-height: 25px;
                 font-weight: 600;
-                color: #38404f;
+                color: $black;
                 margin-bottom: 0;
+                transition: all 0.3s ease-in-out;
+                &:hover {
+                    color: $theme1;
+                }
             }
             & .card-text {
                 font-size: 13px;
                 line-height: 26px;
-                color: #38404f;
+                color: gray;
             }
         }
     }
+}
+
+.travelStories {
+    & .travelCard {
+        & .card-image {
+            & img {
+            }
+        }
+        & .cardContent {
+            & .travelDate {
+                font-size: 14px;
+                font-weight: 400;
+                color: $gray-700;
+            }
+            & .titlecard {
+                font-size: 16px;
+                font-weight: 600;
+                color: $black;
+            }
+        }
+    }
+}
+.aboutIndiaSection{
+    & .aboutPerograph{
+        font-size: 14px;
+        font-weight: 400;
+        color: #38404F;
+    }
+    &
 }
