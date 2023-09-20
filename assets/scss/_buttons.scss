@@ -2,9 +2,10 @@
     font-size: 16px;
     font-weight: 400;
     border-radius: 8px;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease-in-out;
     &:hover{
         background-color: $theme1 .2%;
+        color: $white !important;
     }
 }
 

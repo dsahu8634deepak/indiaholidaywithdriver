@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import "variables";
-
+// homePage
 .homePage {
     & .owlCarousel {
         & .contentimage {
@@ -71,7 +71,7 @@
         }
     }
 }
-
+// sectionpackage
 .sectionpackage {
     & .listNav {
         & .nav-pills {
@@ -118,7 +118,7 @@
         }
     }
 }
-
+// travelStories
 .travelStories {
     & .travelCard {
         & .card-image {
@@ -139,11 +139,39 @@
         }
     }
 }
+// aboutIndiaSection
 .aboutIndiaSection{
     & .aboutPerograph{
         font-size: 14px;
         font-weight: 400;
         color: #38404F;
     }
-    &
+    
+}
+// recomendedSection
+.recomendedSection{
+    & .subHeading{
+        font-size: 14px;
+        font-weight: 400;
+        color: $gray-700;
+    }
+    & .recommendedcard{
+        & .card-image{
+            & img{
+
+            }
+        }
+        & .card-body{
+            & .card-title{
+                font-size: 16px;
+                font-weight: 600;
+                color: $black;
+            }
+            & .destition{
+                font-size: 14px;
+                font-weight: 400;
+                color: $gray-700;
+            }
+        }
+    }
 }
