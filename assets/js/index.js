@@ -4,6 +4,18 @@ $(function () {
     $("#footer").load("layout/footer.html");
 });
 // include Header
+// header color change
+$(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 70) {
+            $(".NavbarMain").addClass("active");
+        } else {
+            //remove the background property so it comes transparent again (defined in your css)
+            $(".NavbarMain").removeClass("active");
+        }
+    });
+});
+// header color change
 
 // owl
 $('.owl-carousel').owlCarousel({

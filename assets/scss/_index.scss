@@ -95,7 +95,23 @@
     }
     & .maintancontent {
         & .maincard {
-            & img {
+            & .imagecard {
+                width: 86px;
+                height: 86px;
+                object-fit: cover;
+                position: relative;
+                transition: all 0.5s ease-in-out;
+                border-radius: 0.375rem;
+                overflow: hidden;
+                & img {
+                }
+                &:hover {
+                    transition: all 0.5s ease-in-out;
+                    & img {
+                        transform: scale(1.2);
+                        transition: all 0.5s ease-in-out;
+                    }
+                }
             }
         }
         & .card-body {
@@ -122,7 +138,18 @@
 .travelStories {
     & .travelCard {
         & .card-image {
+            position: relative;
+            transition: all 0.5s ease-in-out;
+            border-radius: 0.375rem;
+            overflow: hidden;
             & img {
+            }
+            &:hover {
+                transition: all 0.5s ease-in-out;
+                & img {
+                    transform: scale(1.2);
+                    transition: all 0.5s ease-in-out;
+                }
             }
         }
         & .cardContent {
@@ -140,43 +167,41 @@
     }
 }
 // aboutIndiaSection
-.aboutIndiaSection{
-    & .aboutPerograph{
+.aboutIndiaSection {
+    & .aboutPerograph {
         font-size: 14px;
         font-weight: 400;
-        color: #38404F;
+        color: #38404f;
     }
-    
 }
 // recomendedSection
-.recomendedSection{
-    & .subHeading{
+.recomendedSection {
+    & .subHeading {
         font-size: 14px;
         font-weight: 400;
         color: $gray-700;
     }
-    & .recommendedcard{
-        & .card-image{
+    & .recommendedcard {
+        & .card-image {
             position: relative;
-            transition-duration: 4s;
             overflow: hidden;
-            & img{
+            & img {
             }
-            &:hover{
-            transition: all 0.5s ease-in-out;
-                & img{
+            &:hover {
+                transition: all 0.5s ease-in-out;
+                & img {
                     transform: scale(1.2);
                     transition: all 0.5s ease-in-out;
                 }
             }
         }
-        & .card-body{
-            & .card-title{
+        & .card-body {
+            & .card-title {
                 font-size: 16px;
                 font-weight: 600;
                 color: $black;
             }
-            & .destition{
+            & .destition {
                 font-size: 14px;
                 font-weight: 400;
                 color: $gray-700;
