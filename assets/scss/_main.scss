@@ -13,14 +13,11 @@
   ::-webkit-scrollbar-thumb {
     background-color: $theme2;
   }
-  
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
-  
   body {
     letter-spacing: 0.5px;
     user-select: none;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden auto;
   }
   
   a{
@@ -31,95 +28,71 @@
   
   .img {
     object-fit: cover;
-    // aspect-ratio: 10/10;
     object-position: top center;
   }
 
-  
-  // Responsive
-  @mixin mainPage-mixin-min-sm(){
-  
-  };
-  @mixin mainPage-mixin-min-md(){
-    section {
-    }
+  @media (max-width: 575px) {
+    * {
+        & > * {
+            &::-webkit-scrollbar {
+            }
     
-    .sectionBorderHeading {
-      &::after {
+            /* Track */
+            &::-webkit-scrollbar-track {
+            }
+    
+            /* Handle */
+            &::-webkit-scrollbar-thumb {
+            }
+    
+            /* Handle on hover */
+            &::-webkit-scrollbar-thumb:hover {
+            }
+        }
+        &:hover > * {
+            /* Track */
+            &::-webkit-scrollbar-track {
+            }
+    
+            /* Handle */
+            &::-webkit-scrollbar-thumb {
+            }
+    
+            /* Handle on hover */
+            &::-webkit-scrollbar-thumb:hover {
+            }
+        }
+    }
+}
+* {
+  & > ul {
+      &::-webkit-scrollbar {
+        height: 0px !important;
       }
-    
-    }
-    
-    .heading {
-    
-      &::after {
+
+      /* Track */
+      &::-webkit-scrollbar-track {
       }
-    }
-    
-    .textUppercase {
-    }
-    
-    .textContent {
-    }
-    
-    .sectonHeading {
-      // font-size: 40px !important;
-    }
-  };
-  @mixin mainPage-mixin-min-lg(){
-  
-  };
-  @mixin mainPage-mixin-min-xl(){
-  
-  };
-  @mixin mainPage-mixin-min-xxl(){
-  
-  };
-  @mixin mainPage-mixin-max-xl(){
-  
-  };
-  @mixin mainPage-mixin-max-1300(){
-  
-  };
-  @mixin mainPage-mixin-max-lg(){
-  
-  };
-  @mixin mainPage-mixin-max-md(){
-  
-  };
-  @mixin mainPage-mixin-max-sm(){
-    
-  
-  };
-  @mixin mainPage-mixin-max-xs(){
-    section {
-    }
-    
-    .sectionBorderHeading {
-      font-size: 20px;
-      &::after {
+
+      /* Handle */
+      &::-webkit-scrollbar-thumb {
       }
-    
-    }
-    
-    .heading {
-      font-size: 12px;
-      &::after {
+
+      /* Handle on hover */
+      &::-webkit-scrollbar-thumb:hover {
       }
-    }
-    
-    .textUppercase {
-    }
-    
-    .textContent {
-      font-size: 12px;
-    }
-    .pagesHeading {
-      font-size: 14px;
-    }
-    .sectonHeading {
-      font-size: 16px !important;
-    }
-  };
-  
-  
+  }
+  &:hover > * {
+      /* Track */
+      &::-webkit-scrollbar-track {
+      }
+
+      /* Handle */
+      &::-webkit-scrollbar-thumb {
+      }
+
+      /* Handle on hover */
+      &::-webkit-scrollbar-thumb:hover {
+      }
+  }
+}
