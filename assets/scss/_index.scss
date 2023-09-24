@@ -5,16 +5,7 @@
     &.homePage {
         overflow-x: hidden;
         position: relative;
-        // &::before {
-        //     content: "";
-        //     position: absolute;
-        //     background-color: #0000005e;
-        //     height: 100%;
-        //     z-index: 2;
-        //     width: 100%;
-        //     left: 0;
-        //     right: 0px;
-        // }
+        
         & .slider {
             overflow: hidden;
             & .owl-stage-outer {
@@ -29,8 +20,21 @@
             & .contentimage {
                 position: relative;
                 height: 100%;
+                
                 & img {
                     object-fit: cover;
+                    
+                }
+                &::before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 3;
+                    background: #00000073; /* Black with 0.5 opacity */
                 }
                 & .contentHome {
                     top: 50%;
@@ -43,10 +47,12 @@
                     align-items: center;
                     justify-content: center;
                     flex-direction: column;
+                    z-index: 4;
                     & .subHeading {
                         letter-spacing: 5px;
                         font-size: 20px;
                         font-weight: 400;
+                        color: #fff;
                     }
                     & .mainHeading {
                         margin-bottom: 20px;
