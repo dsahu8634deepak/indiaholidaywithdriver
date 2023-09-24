@@ -3,6 +3,7 @@
 //------------------------------------------HomePage-------------------------------------------------------
 [data-page-name="homePage"] {
     &.homePage {
+        overflow-x: hidden;
         position: relative;
         // &::before {
         //     content: "";
@@ -348,6 +349,7 @@
 //----------------------------------------------------- sectionpackage-----------------------------------------
 [data-page-name="sectionpackage"] {
     &.sectionpackage {
+        overflow-x: hidden;
         & .listNav {
             & .nav-pills {
                 overflow: auto hidden;
@@ -651,6 +653,7 @@
 // -----------------------------------------------------Why Choose Travello--------------------------------
 [data-page-name="whyChooseSection"] {
     &.whyChooseSection {
+        overflow-x: hidden;
         & .leftSideImage {
             & img {
             }
@@ -716,6 +719,7 @@
 @mixin whyChooseSection-mixin-max-xs() {
     [data-page-name="whyChooseSection"] {
         &.whyChooseSection {
+            
             & .leftSideImage {
                 & img {
                 }
@@ -821,6 +825,7 @@
 //---------------------------------------------------- travelStories----------------------------------------
 [data-page-name="travelStories"] {
     &.travelStories {
+        overflow-x: hidden;
         & .travelCard {
             & .card-image {
                 position: relative;
@@ -1002,6 +1007,7 @@
 //--------------------------------------------------- aboutIndiaSection-----------------------------------
 [data-page-name="aboutIndiaSection"] {
     &.aboutIndiaSection {
+        overflow-x: hidden;
         & .aboutPerograph {
             font-size: 14px;
             font-weight: 400;
@@ -1085,6 +1091,7 @@
 //--------------------------------------------- recomendedSection---------------------------------------
 [data-page-name="recomendedSection"] {
     &.recomendedSection {
+        overflow-x: hidden;
         & .subHeading {
             font-size: 14px;
             font-weight: 400;
@@ -1278,6 +1285,7 @@
 //----------------------------------------- Travel Information-------------------------------------
 [data-page-name="travelInformation"] {
     &.travelInformation {
+        overflow-x: hidden;
         & .travelImage {
             position: relative;
             transition: all 0.5s ease-in-out;
