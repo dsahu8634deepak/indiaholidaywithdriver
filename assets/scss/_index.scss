@@ -175,13 +175,16 @@
                         }
                         & .mainHeading {
                             font-size: 22px;
+                            text-align: center;
                         }
                     }
                 }
                 & .owl-nav {
+                    bottom: 42%;
                     & button {
                         width: 40px;
                         height: 40px;
+                        background: #0b0b0b42;
                         & span {
                         }
                         &.owl-prev,
@@ -220,22 +223,39 @@
                     }
                     & .contentHome {
                         & .subHeading {
+                            text-align: center;
                         }
                         & .mainHeading {
+                            text-align: center;
                         }
                     }
                 }
                 & .owl-nav {
-                    & .owl-prev {
+                    bottom: 42%;
+                    & button {
+                        width: 40px;
+                        height: 40px;
+                        background: #0b0b0b42;
                         & span {
-                            &:hover {
+                        }
+                        &.owl-prev,
+                        &.owl-next {
+                            &::before {
                             }
                         }
-                    }
-                    & .owl-next {
-                        & span {
-                            &:hover {
+                        &.owl-prev {
+                            &::before {
                             }
+                            // &:hover {
+                            //     transform: translateX(-5px);
+                            // }
+                        }
+                        &.owl-next {
+                            &::before {
+                            }
+                            // &:hover {
+                            //     transform: translateX(5px);
+                            // }
                         }
                     }
                 }
@@ -254,22 +274,39 @@
                     }
                     & .contentHome {
                         & .subHeading {
+                            text-align: center;
                         }
                         & .mainHeading {
+                            text-align: center;
                         }
                     }
                 }
                 & .owl-nav {
-                    & .owl-prev {
+                    bottom: 42%;
+                    & button {
+                        width: 40px;
+                        height: 40px;
+                        background: #0b0b0b42;
                         & span {
-                            &:hover {
+                        }
+                        &.owl-prev,
+                        &.owl-next {
+                            &::before {
                             }
                         }
-                    }
-                    & .owl-next {
-                        & span {
-                            &:hover {
+                        &.owl-prev {
+                            &::before {
                             }
+                            // &:hover {
+                            //     transform: translateX(-5px);
+                            // }
+                        }
+                        &.owl-next {
+                            &::before {
+                            }
+                            // &:hover {
+                            //     transform: translateX(5px);
+                            // }
                         }
                     }
                 }
@@ -288,8 +325,10 @@
                     }
                     & .contentHome {
                         & .subHeading {
+                            text-align: center;
                         }
                         & .mainHeading {
+                            text-align: center;
                         }
                     }
                 }
