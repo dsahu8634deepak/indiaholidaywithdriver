@@ -20,7 +20,7 @@ $(function () {
 // owl
 $('.slider').owlCarousel({
     loop: true,
-    autoplay: false,
+    autoplay: true,
     autoplayTimeout: 5000,
     autoplayHoverPause: false,
     autoHeightClass: 'owl-height',
