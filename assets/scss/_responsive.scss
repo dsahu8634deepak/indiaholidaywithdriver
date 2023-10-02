@@ -14,9 +14,11 @@
     @include whyChooseSection-mixin-min-sm();
     @include contactsection-mixin-min-sm();
     @include contactform-mixin-min-sm();
+    @include aboutus-mixin-min-sm();
+    @include blogs-mixin-min-sm();
 }
 
-// Medium devices (tablets, 768px and up)
+// Mdium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     @include homePage-mixin-min-md();
     @include sectionpackage-mixin-min-md();
@@ -29,9 +31,11 @@
     @include whyChooseSection-mixin-min-md();
     @include contactsection-mixin-min-md();
     @include contactform-mixin-min-md();
+    @include aboutus-mixin-min-md();
+    @include blogs-mixin-min-md();
 }
 
-// Large devices (desktops, 992px and up)
+// Lrge devices (desktops, 992px and up)
 @media (min-width: 992px) {
     @include homePage-mixin-min-lg();
     @include sectionpackage-mixin-min-lg();
@@ -44,9 +48,11 @@
     @include whyChooseSection-mixin-min-lg();
     @include contactsection-mixin-min-lg();
     @include contactform-mixin-min-lg();
+    @include aboutus-mixin-min-lg();
+    @include blogs-mixin-min-lg();
 }
 
-// X-Large devices (large desktops, 1200px and up)
+// XLarge devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
     @include homePage-mixin-min-xl();
     @include sectionpackage-mixin-min-xl();
@@ -59,7 +65,8 @@
     @include whyChooseSection-mixin-min-xl();
     @include contactsection-mixin-min-xl();
     @include contactform-mixin-min-xl();
-
+    @include aboutus-mixin-min-xl();
+    @include blogs-mixin-min-xl();
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
@@ -75,7 +82,8 @@
     @include whyChooseSection-mixin-min-xxl();
     @include contactsection-mixin-min-xxl();
     @include contactform-mixin-min-xxl();
-
+    @include aboutus-mixin-min-xxl();
+    @include blogs-mixin-min-xxl();
 }
 
 // X-Large devices (large desktops, less than 1400px)
@@ -91,7 +99,8 @@
     @include whyChooseSection-mixin-max-xl();
     @include contactsection-mixin-max-xl();
     @include contactform-mixin-max-xl();
-
+    @include aboutus-mixin-max-xl();
+    @include blogs-mixin-max-xl();
 }
 
 // Large devices (desktops, less than 1200px)
@@ -107,7 +116,8 @@
     @include whyChooseSection-mixin-max-lg();
     @include contactsection-mixin-max-lg();
     @include contactform-mixin-max-lg();
-
+    @include aboutus-mixin-max-lg();
+    @include blogs-mixin-max-lg();
 }
 
 // Medium devices (tablets, less than 992px)
@@ -123,7 +133,8 @@
     @include whyChooseSection-mixin-max-md();
     @include contactsection-mixin-max-md();
     @include contactform-mixin-max-md();
-
+    @include aboutus-mixin-max-md();
+    @include blogs-mixin-max-md();
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -138,7 +149,8 @@
     @include whyChooseSection-mixin-max-sm();
     @include contactsection-mixin-max-sm();
     @include contactform-mixin-max-sm();
-
+    @include aboutus-mixin-max-sm();
+    @include blogs-mixin-max-sm();
 }
 
 // X-Small devices (portrait phones, less than 576px)
@@ -153,7 +165,8 @@
     @include whyChooseSection-mixin-max-xs();
     @include contactsection-mixin-max-xs();
     @include contactform-mixin-max-xs();
-
+    @include aboutus-mixin-max-xs();
+    @include blogs-mixin-max-xs();
 }
 
 // XX-Large devices (larger desktops)

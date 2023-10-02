@@ -5,7 +5,7 @@
     &.homePage {
         overflow-x: hidden;
         position: relative;
-        
+
         & .slider {
             overflow: hidden;
             & .owl-stage-outer {
@@ -20,10 +20,9 @@
             & .contentimage {
                 position: relative;
                 height: 100%;
-                
+
                 & img {
                     object-fit: cover;
-                    
                 }
                 &::before {
                     content: "";
@@ -763,7 +762,6 @@
 @mixin whyChooseSection-mixin-max-xs() {
     [data-page-name="whyChooseSection"] {
         &.whyChooseSection {
-            
             & .leftSideImage {
                 & img {
                 }
@@ -1412,4 +1410,59 @@
 
 // X-Large devices (large desktops, less than 1400px)
 @mixin travelInformation-mixin-max-xl() {
+}
+//------------------------------------------------ terms Condition ----------------------------------------------------
+[data-page-name="terms_conditionspage"] {
+    &.terms_conditionspage {
+        & .about-text {
+            & p {
+                font-size: 14px;
+                font-weight: 300;
+                color: $black;
+                & b{
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin terms_conditionspage-mixin-min-sm() {
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin terms_conditionspage-mixin-min-md() {
+}
+
+// Large devices (desktops, 992px and up)
+@mixin terms_conditionspage-mixin-min-lg() {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@mixin terms_conditionspage-mixin-min-xl() {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin terms_conditionspage-mixin-min-xxl() {
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin terms_conditionspage-mixin-max-xs() {
+}
+
+// Small devices (landscape phones, less than 768px)
+@mixin terms_conditionspage-mixin-max-sm() {
+}
+
+// Medium devices (tablets, less than 992px)
+@mixin terms_conditionspage-mixin-max-md() {
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin terms_conditionspage-mixin-max-lg() {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin terms_conditionspage-mixin-max-xl() {
 }
