@@ -2,8 +2,10 @@
     background-image: url(../image/home/pattern-2.png);
     
     & .aboutimage {
+        text-align: center;
         & .flogo {
             height: 100px;
+            width: 100%;
         }
     }
     & .useful-links {
@@ -87,7 +89,7 @@
         & .aboutimage {
             text-align: center;
             & .flogo {
-                width: 100px;
+                width: 225px;
             }
         }
         & .useful-links {
@@ -127,7 +129,8 @@
         & .aboutimage {
             text-align: center;
             & .flogo {
-                width: 100px;
+                height: 50px;
+                width: 225px;
             }
         }
         & .useful-links {
@@ -167,7 +170,8 @@
         & .aboutimage {
             text-align: center;
             & .flogo {
-                width: 100px;
+                height: 50px;
+                width: 225px;
             }
         }
         & .useful-links {
@@ -202,7 +206,17 @@
 }
 
 // Large devices (desktops, less than 1200px)
-@mixin footermain-mixin-max-lg() {}
+@mixin footermain-mixin-max-lg() {
+    .footermain {
+        & .aboutimage {
+            text-align: center;
+            & .flogo {
+                height: 50px;
+                width: 190px;
+            }
+        }
+    }
+}
 
 // X-Large devices (large desktops, less than 1400px)
 @mixin footermain-mixin-max-xl() {}
