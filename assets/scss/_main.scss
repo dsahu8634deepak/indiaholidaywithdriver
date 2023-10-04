@@ -82,6 +82,11 @@
       /* Handle on hover */
       &::-webkit-scrollbar-thumb:hover {
       }
+      & li{
+        &::marker{
+          color: $theme1;
+        }
+      }
   }
   &:hover > * {
       /* Track */
