@@ -15,6 +15,7 @@
     @include contactsection-mixin-min-sm();
     @include contactform-mixin-min-sm();
     @include aboutus-mixin-min-sm();
+    @include travelInformation-mixin-min-sm();
     @include blogs-mixin-min-sm();
 }
 
@@ -32,6 +33,7 @@
     @include contactsection-mixin-min-md();
     @include contactform-mixin-min-md();
     @include aboutus-mixin-min-md();
+    @include travelInformation-mixin-min-md();
     @include blogs-mixin-min-md();
 }
 
@@ -49,6 +51,7 @@
     @include contactsection-mixin-min-lg();
     @include contactform-mixin-min-lg();
     @include aboutus-mixin-min-lg();
+    @include travelInformation-mixin-min-lg();
     @include blogs-mixin-min-lg();
 }
 
@@ -66,6 +69,7 @@
     @include contactsection-mixin-min-xl();
     @include contactform-mixin-min-xl();
     @include aboutus-mixin-min-xl();
+    @include travelInformation-mixin-min-xl();
     @include blogs-mixin-min-xl();
 }
 
@@ -83,6 +87,7 @@
     @include contactsection-mixin-min-xxl();
     @include contactform-mixin-min-xxl();
     @include aboutus-mixin-min-xxl();
+    @include travelInformation-mixin-min-xxl();
     @include blogs-mixin-min-xxl();
 }
 
@@ -100,6 +105,7 @@
     @include contactsection-mixin-max-xl();
     @include contactform-mixin-max-xl();
     @include aboutus-mixin-max-xl();
+    @include travelInformation-mixin-max-xl();
     @include blogs-mixin-max-xl();
 }
 
@@ -117,6 +123,7 @@
     @include contactsection-mixin-max-lg();
     @include contactform-mixin-max-lg();
     @include aboutus-mixin-max-lg();
+    @include travelInformation-mixin-max-lg();
     @include blogs-mixin-max-lg();
 }
 
@@ -134,6 +141,7 @@
     @include contactsection-mixin-max-md();
     @include contactform-mixin-max-md();
     @include aboutus-mixin-max-md();
+    @include travelInformation-mixin-max-md();
     @include blogs-mixin-max-md();
 }
 
@@ -150,6 +158,7 @@
     @include contactsection-mixin-max-sm();
     @include contactform-mixin-max-sm();
     @include aboutus-mixin-max-sm();
+    @include travelInformation-mixin-max-sm();
     @include blogs-mixin-max-sm();
 }
 
@@ -166,6 +175,7 @@
     @include contactsection-mixin-max-xs();
     @include contactform-mixin-max-xs();
     @include aboutus-mixin-max-xs();
+    @include travelInformation-mixin-max-xs();
     @include blogs-mixin-max-xs();
 }
 
