@@ -17,6 +17,7 @@
     @include aboutus-mixin-min-sm();
     @include travelInformation-mixin-min-sm();
     @include blogs-mixin-min-sm();
+    @include find_Best_Thingd_Section-mixin-min-sm();
 }
 
 // Mdium devices (tablets, 768px and up)
@@ -35,6 +36,7 @@
     @include aboutus-mixin-min-md();
     @include travelInformation-mixin-min-md();
     @include blogs-mixin-min-md();
+    @include find_Best_Thingd_Section-mixin-min-md();
 }
 
 // Lrge devices (desktops, 992px and up)
@@ -53,6 +55,7 @@
     @include aboutus-mixin-min-lg();
     @include travelInformation-mixin-min-lg();
     @include blogs-mixin-min-lg();
+    @include find_Best_Thingd_Section-mixin-min-lg();
 }
 
 // XLarge devices (large desktops, 1200px and up)
@@ -71,6 +74,7 @@
     @include aboutus-mixin-min-xl();
     @include travelInformation-mixin-min-xl();
     @include blogs-mixin-min-xl();
+    @include find_Best_Thingd_Section-mixin-min-xl();
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
@@ -89,6 +93,7 @@
     @include aboutus-mixin-min-xxl();
     @include travelInformation-mixin-min-xxl();
     @include blogs-mixin-min-xxl();
+    @include find_Best_Thingd_Section-mixin-min-xxl();
 }
 
 // X-Large devices (large desktops, less than 1400px)
@@ -107,6 +112,7 @@
     @include aboutus-mixin-max-xl();
     @include travelInformation-mixin-max-xl();
     @include blogs-mixin-max-xl();
+    @include find_Best_Thingd_Section-mixin-max-xl();
 }
 
 // Large devices (desktops, less than 1200px)
@@ -125,6 +131,7 @@
     @include aboutus-mixin-max-lg();
     @include travelInformation-mixin-max-lg();
     @include blogs-mixin-max-lg();
+    @include find_Best_Thingd_Section-mixin-max-lg();
 }
 
 // Medium devices (tablets, less than 992px)
@@ -143,6 +150,7 @@
     @include aboutus-mixin-max-md();
     @include travelInformation-mixin-max-md();
     @include blogs-mixin-max-md();
+    @include find_Best_Thingd_Section-mixin-max-md();
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -160,6 +168,7 @@
     @include aboutus-mixin-max-sm();
     @include travelInformation-mixin-max-sm();
     @include blogs-mixin-max-sm();
+    @include find_Best_Thingd_Section-mixin-max-sm();
 }
 
 // X-Small devices (portrait phones, less than 576px)
@@ -177,6 +186,7 @@
     @include aboutus-mixin-max-xs();
     @include travelInformation-mixin-max-xs();
     @include blogs-mixin-max-xs();
+    @include find_Best_Thingd_Section-mixin-max-xs();
 }
 
 // XX-Large devices (larger desktops)
