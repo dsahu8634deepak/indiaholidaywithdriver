@@ -22,7 +22,7 @@
                 height: 100%;
 
                 & img {
-                    object-fit: fill;
+                    object-fit: cover;
                 }
                 &::before {
                     content: "";

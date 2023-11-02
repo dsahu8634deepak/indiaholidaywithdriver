@@ -11,6 +11,10 @@
         background: $white !important;
         border-color: $theme1;
     }
+    & span{
+        width: 20px;
+        height: 20px;
+    }
 }
 
 // Small devices (landscape phones, 576px and up)
